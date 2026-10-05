@@ -1,0 +1,61 @@
+# ---------- Build output ----------
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+publish/
+artifacts/
+
+# ---------- JetBrains Rider ----------
+.idea/
+.idea_modules/
+*.sln.iml
+*.iml
+*.ipr
+*.iws
+.run/
+
+# ---------- Visual Studio / VS Code ----------
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ---------- Tests and coverage ----------
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# ---------- Logs and temp files ----------
+*.log
+*.tmp
+*.temp
+
+# ---------- NuGet packages ----------
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+
+# ---------- Local settings and secrets ----------
+# Keep appsettings.json (no secrets in it); ignore machine-specific overrides.
+appsettings.*.local.json
+appsettings.Local.json
+secrets.json
+*.env
+.env
+.env.*
+*.pfx
+*.key
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Packaged downloads ----------
+*.zip
